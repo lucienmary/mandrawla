@@ -1,0 +1,14 @@
+:root {
+  --bg-color: #eef0f1;
+  --panel-color: #ffffff;
+  --text-color: #262627;
+  --grid-gap: 24px;
+  --title-font: "Exo 2", sans-serif;
+  --text-font: "Alegreya Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h5, h6 {
+  font-family: var(--title-font);
+}
+
+/*# sourceMappingURL=type.css.map */

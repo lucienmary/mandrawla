@@ -1,0 +1,63 @@
+:root {
+  --bg-color: #eef0f1;
+  --panel-color: #ffffff;
+  --text-color: #262627;
+  --grid-gap: 24px;
+  --title-font: "Exo 2", sans-serif;
+  --text-font: "Alegreya Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h5, h6 {
+  font-family: var(--title-font);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font-family: var(--text-font);
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--grid-gap);
+  min-height: 100vh;
+}
+main .panel {
+  background-color: var(--panel-color);
+}
+main .panel-menu {
+  width: 15%;
+}
+main .panel-manda {
+  width: 100%;
+}
+main .panel-manda canvas {
+  display: block;
+  margin: auto;
+}
+main .panel-settings {
+  width: 25%;
+}
+
+footer {
+  background-color: #000;
+}
+footer p {
+  margin: 0;
+  padding: 6px;
+  font-size: 12px;
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid lightblue;
+}
+
+/*# sourceMappingURL=global.css.map */

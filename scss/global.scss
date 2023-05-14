@@ -1,0 +1,57 @@
+@use 'variables' as *;
+@use 'type' as *;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    font-family: var(--text-font);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--grid-gap);
+    min-height: 100vh;
+
+    .panel {
+        background-color: var(--panel-color);
+
+        &-menu {
+            width: 15%;
+        }
+
+        &-manda {
+            width: 100%;
+
+            canvas {
+                display: block;
+                margin: auto;
+            }
+        }
+
+        &-settings {
+            width: 25%;
+        }
+    }
+}
+
+footer {
+    background-color: #000;
+    
+    p {
+        margin: 0;
+        padding: 6px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+canvas {
+    border: 1px solid lightblue;
+}
