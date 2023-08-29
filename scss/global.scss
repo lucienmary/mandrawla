@@ -20,29 +20,36 @@ main {
     min-height: 100vh;
 
     .panel {
-        background-color: var(--panel-color);
 
         &-menu {
-            width: 15%;
+            background-color: var(--panel-color);
+            box-shadow: 0px 0px 8px var(--bg-color-shadow);
+            width: 20%;
         }
 
         &-manda {
-            width: 100%;
+            display: flex;
+            width: 50%;
 
             canvas {
+                align-self: center;
+                background-color: var(--panel-color);
+                border-radius: 12px;
                 display: block;
+                width: 100%;
                 margin: auto;
             }
         }
 
         &-settings {
-            width: 25%;
+            background-color: var(--panel-color);
+            box-shadow: 0px 0px 8px var(--bg-color-shadow);
+            width: 20%;
         }
     }
 }
 
 footer {
-    background-color: #000;
     
     p {
         margin: 0;
@@ -50,8 +57,4 @@ footer {
         font-size: 12px;
         text-align: center;
     }
-}
-
-canvas {
-    border: 1px solid lightblue;
 }

@@ -1,10 +1,15 @@
 :root {
-  --bg-color: #eef0f1;
+  --bg-color: #f5f5fb;
+  --bg-color-shadow: #dedeec;
   --panel-color: #ffffff;
   --text-color: #262627;
   --grid-gap: 24px;
   --title-font: "Exo 2", sans-serif;
   --text-font: "Alegreya Sans", sans-serif;
+  --bg-color: #080808;
+  --bg-color-shadow: #000000;
+  --panel-color: #101010;
+  --text-color: #262627;
 }
 
 /*# sourceMappingURL=variables.css.map */
